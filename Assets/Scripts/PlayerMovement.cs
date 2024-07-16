@@ -80,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.BoxCast(capscoll.bounds.center, capscoll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+        return Physics2D.Raycast(transform.position, -transform.up, 2f, jumpableGround);
     }
 
 }
