@@ -3027,7 +3027,6 @@ GameObject:
   - component: {fileID: 1279408560}
   - component: {fileID: 1279408559}
   - component: {fileID: 1279408558}
-  - component: {fileID: 1279408557}
   - component: {fileID: 1279408556}
   - component: {fileID: 1279408555}
   - component: {fileID: 1279408554}
@@ -3083,24 +3082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa688e9377649e14ab9e1a07f9108b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puffkins: 0
   puffkinsText: {fileID: 0}
---- !u!114 &1279408557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279408553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6b1d1408e9be8b44b0825c1d6d3bb37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpableGround:
-    serializedVersion: 2
-    m_Bits: 64
-  moveSpeed: 9
-  jumpForce: 7
 --- !u!70 &1279408558
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
