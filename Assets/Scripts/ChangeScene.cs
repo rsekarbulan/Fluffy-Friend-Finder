@@ -16,7 +16,7 @@ public class ChangeScene : MonoBehaviour
         {
             fader.FadeToLevel(2);
         }
-        if (currentScene == "Puffkin Transform")
+        if (currentScene == "Puffkin Cutscene")
         {
             fader.FadeToLevel(3);
         }
